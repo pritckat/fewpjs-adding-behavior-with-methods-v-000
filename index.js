@@ -21,5 +21,12 @@ class Dog {
 }
 
 class Bird {
+  constructor(name) {
+    this.name = name
+  }
+
+  speak() {
+    return `It's me! ${this.name}, the parrot!`
+  }
 
 }
